@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ComputerVisionService {
 
-  private url = 'https://effective-lamp-p46r95vp49r39wgx-8085.app.github.dev/computer-vision'
+  private url = 'http://localhost:8085/computer-vision'
 
   constructor(private http: HttpClient) { }
 
